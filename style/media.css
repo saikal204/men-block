@@ -1,0 +1,231 @@
+@media (max-width: 1200px) {
+    .main__header {
+        display: none;
+    }
+
+
+    .media__menu {
+        position: absolute;
+        left: 0;
+        right: 0;
+        padding-bottom: 50px;
+        top: -600px;
+        transition: all .2s ease ;
+    }
+
+
+}
+
+@media (max-width: 991px) {
+    .burger {
+        display: block;
+        position: absolute;
+        top: 80px;
+        width: 100%;
+        transition: .2s ease;
+    }
+
+    .media__header {
+        padding: -1px 40px 36px 36px;
+    }
+
+    .header__inner {
+        display: none;
+    }
+
+    .media__inner {
+        background: black;
+        display: flex;
+        justify-content: space-between;
+        padding: 36px 40px 36px 36px;
+    }
+
+    .fa-shopping-cart {
+        color: white;
+        margin: 0 35px 0 25px;
+    }
+
+    .logo {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 54px;
+        color: #FFFFFF;
+        font-family: 'Post No Bills Jaffna', sans-serif;
+
+    }
+
+    .media__icon {
+        color: white;
+        display: flex;
+    }
+
+    .burger__active {
+        width: 25px;
+        display: flex;
+        flex-direction: column;
+        /*cursor: pointer;*/
+    }
+
+    .burger__active span:nth-child(1) {
+        display: inline-block;
+        width: 25px;
+        height: 2px;
+        background: #737373;
+        transition: all .2s ease-in-out;
+    }
+
+    .burger__active span:nth-child(2) {
+        display: inline-block;
+        width: 20px;
+        height: 2px;
+        margin: 5px 0 5px 5px;
+        background: #737373;
+        transition: all .2s ease-in-out;
+    }
+
+    .burger__active span:nth-child(3) {
+        display: inline-block;
+        width: 15px;
+        height: 2px;
+        margin: 0 0 0 10px;
+        background: #737373;
+        transition: all .2s ease-in-out;
+    }
+
+
+
+
+    .burger__btn span:nth-child(2) {
+        display: inline-block;
+        width: 25px;
+        height: 2px;
+        margin: 5px 0 5px 0;
+        background: #737373;
+    }
+
+    .burger__btn span:nth-child(3) {
+        display: inline-block;
+        width: 25px;
+        height: 2px;
+        margin: 0;
+        background: #737373;
+    }
+
+    .media__menu {
+        /*padding: 80px;*/
+        text-align: center;
+        background: #000;
+    }
+
+    .media__menu-list_item:not(:last-child) {
+        margin-bottom: 30px;
+    }
+
+    .media__menu-list {
+        list-style-type: none;
+    }
+
+    .media__menu-link {
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 45px;
+        text-align: center;
+        color: #737373;
+    }
+
+
+
+
+
+
+
+
+
+
+    .row {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+    .hero__item {
+        margin: 0 350px;
+    }
+
+    .porten__desc {
+        width: 320px;
+    }
+
+    .time__item {
+        margin: 70px 0 0 -215px;
+    }
+
+    .collection__icon {
+        padding: 40px 0 40px 0;
+    }
+
+    .men__item {
+        padding: 150px 15px;
+    }
+
+    .btn__desc {
+        margin: 0 10px;
+    }
+
+    .new__title {
+        width: 1100px;
+    }
+
+    .time__row {
+        margin: 0 60px;
+    }
+    .time__title {
+        width: 650px;
+    }
+
+    .time__icon {
+        padding: 60px 240px;
+    }
+
+    .new__container {
+        margin: 0 -30px;
+    }
+
+    .brand__block {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+
+    .brand__photo {
+        padding: 0 40px 60px 0;
+    }
+
+    .lorem__bg {
+        width: 880px;
+    }
+
+    #magazine {
+        height: 990px;
+    }
+
+    .magazine__row {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .user__email {
+        width: 360px;
+    }
+
+    .footer__text {
+        margin: 0 65px;
+    }
+
+    .footer__desc {
+        margin: 0 90px;
+    }
+
+
+}
